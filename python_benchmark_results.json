@@ -1,0 +1,219 @@
+{
+  "Base64": {
+    "totalSavingPercent": 9294.230769230828,
+    "avgSize": 11.990074441687344,
+    "totalSize": 14496,
+    "totalTime": 0.26106834411621094,
+    "avgTime": 0.0002159374227594797,
+    "examples": [
+      {
+        "timestamp": 1757606028009,
+        "timestamp_iso": "2025-09-11T17:53:48.009000",
+        "compressed": "AAABmTl7ouk=",
+        "size": 12,
+        "timeTaken": "0.005"
+      },
+      {
+        "timestamp": 1757519628009,
+        "timestamp_iso": "2025-09-10T17:53:48.009000",
+        "compressed": "AAABmTRVRuk=",
+        "size": 12,
+        "timeTaken": "0.001"
+      },
+      {
+        "timestamp": 1757001228009,
+        "timestamp_iso": "2025-09-04T17:53:48.009000",
+        "compressed": "AAABmRVvHuk=",
+        "size": 12,
+        "timeTaken": "0.000"
+      }
+    ],
+    "avgSavingPercent": 7.68753578927281
+  },
+  "Base36": {
+    "totalSavingPercent": 46531.57051282104,
+    "avgSize": 7.996691480562449,
+    "totalSize": 9668,
+    "totalTime": 0.6093978881835938,
+    "avgTime": 0.0005040511895645937,
+    "examples": [
+      {
+        "timestamp": 1757606028009,
+        "timestamp_iso": "2025-09-11T17:53:48.009000",
+        "compressed": "mffl8yqx",
+        "size": 8,
+        "timeTaken": "0.002"
+      },
+      {
+        "timestamp": 1757519628009,
+        "timestamp_iso": "2025-09-10T17:53:48.009000",
+        "compressed": "mfe5t42x",
+        "size": 8,
+        "timeTaken": "0.000"
+      },
+      {
+        "timestamp": 1757001228009,
+        "timestamp_iso": "2025-09-04T17:53:48.009000",
+        "compressed": "mf5l602x",
+        "size": 8,
+        "timeTaken": "0.001"
+      }
+    ],
+    "avgSavingPercent": 38.487651375368934
+  },
+  "Base62": {
+    "totalSavingPercent": 55829.96794871722,
+    "avgSize": 6.996691480562449,
+    "totalSize": 8459,
+    "totalTime": 0.5290508270263672,
+    "avgTime": 0.00043759373616738395,
+    "examples": [
+      {
+        "timestamp": 1757606028009,
+        "timestamp_iso": "2025-09-11T17:53:48.009000",
+        "compressed": "uWvlM6J",
+        "size": 7,
+        "timeTaken": "0.001"
+      },
+      {
+        "timestamp": 1757519628009,
+        "timestamp_iso": "2025-09-10T17:53:48.009000",
+        "compressed": "uWpvfwl",
+        "size": 7,
+        "timeTaken": "0.001"
+      },
+      {
+        "timestamp": 1757001228009,
+        "timestamp_iso": "2025-09-04T17:53:48.009000",
+        "compressed": "uVQq601",
+        "size": 7,
+        "timeTaken": "0.001"
+      }
+    ],
+    "avgSavingPercent": 46.17863353905477
+  },
+  "Split Base62": {
+    "totalSavingPercent": 40500.96153846204,
+    "avgSize": 8.631100082712987,
+    "totalSize": 10435,
+    "totalTime": 1.4734268188476562,
+    "avgTime": 0.0012187153174918579,
+    "examples": [
+      {
+        "timestamp": 1757606028009,
+        "timestamp_iso": "2025-09-11T17:53:48.009000",
+        "compressed": "5i6:4mkFr",
+        "size": 9,
+        "timeTaken": "0.005"
+      },
+      {
+        "timestamp": 1757519628009,
+        "timestamp_iso": "2025-09-10T17:53:48.009000",
+        "compressed": "5i5:4mkFr",
+        "size": 9,
+        "timeTaken": "0.003"
+      },
+      {
+        "timestamp": 1757001228009,
+        "timestamp_iso": "2025-09-04T17:53:48.009000",
+        "compressed": "5hZ:4mkFr",
+        "size": 9,
+        "timeTaken": "0.001"
+      }
+    ],
+    "avgSavingPercent": 33.49955462238382
+  },
+  "Base94": {
+    "totalSavingPercent": 55838.301282050554,
+    "avgSize": 6.9958643507030605,
+    "totalSize": 8458,
+    "totalTime": 0.5037784576416016,
+    "avgTime": 0.0004166902048317631,
+    "examples": [
+      {
+        "timestamp": 1757606028009,
+        "timestamp_iso": "2025-09-11T17:53:48.009000",
+        "compressed": "3rW!iK*",
+        "size": 7,
+        "timeTaken": "0.001"
+      },
+      {
+        "timestamp": 1757519628009,
+        "timestamp_iso": "2025-09-10T17:53:48.009000",
+        "compressed": "3rVxZ;*",
+        "size": 7,
+        "timeTaken": "0.001"
+      },
+      {
+        "timestamp": 1757001228009,
+        "timestamp_iso": "2025-09-04T17:53:48.009000",
+        "compressed": "3rNGP;*",
+        "size": 7,
+        "timeTaken": "0.000"
+      }
+    ],
+    "avgSavingPercent": 46.18552628788301
+  },
+  "Variable": {
+    "totalSavingPercent": 46473.39743589796,
+    "avgSize": 7.999172870140612,
+    "totalSize": 9671,
+    "totalTime": 0.5781650543212891,
+    "avgTime": 0.0004782175800837792,
+    "examples": [
+      {
+        "timestamp": 1757606028009,
+        "timestamp_iso": "2025-09-11T17:53:48.009000",
+        "compressed": "+3ae1mlz",
+        "size": 8,
+        "timeTaken": "0.002"
+      },
+      {
+        "timestamp": 1757519628009,
+        "timestamp_iso": "2025-09-10T17:53:48.009000",
+        "compressed": "+3a8aPLb",
+        "size": 8,
+        "timeTaken": "0.001"
+      },
+      {
+        "timestamp": 1757001228009,
+        "timestamp_iso": "2025-09-04T17:53:48.009000",
+        "compressed": "+39z5GeR",
+        "size": 8,
+        "timeTaken": "0.001"
+      }
+    ],
+    "avgSavingPercent": 38.43953468643338
+  },
+  "BitPacked": {
+    "totalSavingPercent": 46412.82051282104,
+    "avgSize": 7.986765922249793,
+    "totalSize": 9656,
+    "totalTime": 0.3762245178222656,
+    "avgTime": 0.00031118653252462,
+    "examples": [
+      {
+        "timestamp": 1757606028009,
+        "timestamp_iso": "2025-09-11T17:53:48.009000",
+        "compressed": "T3YDaTrp",
+        "size": 8,
+        "timeTaken": "0.002"
+      },
+      {
+        "timestamp": 1757519628009,
+        "timestamp_iso": "2025-09-10T17:53:48.009000",
+        "compressed": "T3UDaTrp",
+        "size": 8,
+        "timeTaken": "0.001"
+      },
+      {
+        "timestamp": 1757001228009,
+        "timestamp_iso": "2025-09-04T17:53:48.009000",
+        "compressed": "T28DaTrp",
+        "size": 8,
+        "timeTaken": "0.001"
+      }
+    ],
+    "avgSavingPercent": 38.389429704566616
+  }
+}

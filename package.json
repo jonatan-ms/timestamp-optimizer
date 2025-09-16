@@ -1,0 +1,24 @@
+{
+  "name": "tz-compr",
+  "version": "1.0.0",
+  "description": "Timestamp compression utility with various encoding schemes",
+  "main": "time_converter.js",
+  "scripts": {
+    "benchmark": "node benchmark.js",
+    "simple-benchmark": "node simple_benchmark.js",
+    "demo": "node time_converter.js",
+    "enhanced": "node enhanced_demo.js",
+    "compare": "echo \"=== JavaScript ===\" && node time_converter.js && echo \"\n=== Python ===\" && python3 time_converter.py",
+    "compare-enhanced": "echo \"=== JavaScript ===\" && node enhanced_demo.js && echo \"\n=== Python ===\" && python3 enhanced_demo.py",
+    "cross-benchmark": "./cross_benchmark.sh"
+  },
+  "keywords": [
+    "timestamp",
+    "compression",
+    "encoding",
+    "base62",
+    "base94"
+  ],
+  "author": "",
+  "license": "MIT"
+}
