@@ -1,0 +1,65 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Full Benchmark (JS)",
+      "program": "${workspaceFolder}/benchmark.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Simple Benchmark (JS)",
+      "program": "${workspaceFolder}/simple_benchmark.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Enhanced Demo (JS)",
+      "program": "${workspaceFolder}/enhanced_demo.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Core Converter (JS)",
+      "program": "${workspaceFolder}/time_converter.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node",
+      "args": ["${input:timestamp}"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Enhanced Demo (Python)",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "python3",
+      "program": "${workspaceFolder}/enhanced_demo.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Core Converter (Python)",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "python3",
+      "program": "${workspaceFolder}/time_converter.py",
+      "args": ["${input:timestamp}"],
+      "console": "integratedTerminal"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "timestamp",
+      "type": "promptString",
+      "description": "Enter a timestamp (milliseconds since epoch), or leave blank for current time"
+    }
+  ]
+}

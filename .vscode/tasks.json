@@ -1,0 +1,123 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Full Benchmark (JS)",
+      "type": "shell",
+      "command": "node ${workspaceFolder}/benchmark.js",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Simple Benchmark (JS)",
+      "type": "shell",
+      "command": "node ${workspaceFolder}/simple_benchmark.js",
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Enhanced Demo (JS)",
+      "type": "shell",
+      "command": "node ${workspaceFolder}/enhanced_demo.js",
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Core Converter (JS)",
+      "type": "shell",
+      "command": "node ${workspaceFolder}/time_converter.js",
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Enhanced Demo (Python)",
+      "type": "shell",
+      "command": "python3 ${workspaceFolder}/enhanced_demo.py",
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Core Converter (Python)",
+      "type": "shell",
+      "command": "python3 ${workspaceFolder}/time_converter.py",
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Compare Both Implementations (Current Time)",
+      "type": "shell",
+      "command": "echo \"=== JavaScript ===\" && node ${workspaceFolder}/time_converter.js && echo \"\n=== Python ===\" && python3 ${workspaceFolder}/time_converter.py",
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Compare Enhanced Methods",
+      "type": "shell",
+      "command": "echo \"=== JavaScript ===\" && node ${workspaceFolder}/enhanced_demo.js && echo \"\n=== Python ===\" && python3 ${workspaceFolder}/enhanced_demo.py",
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Test with Custom Timestamp",
+      "type": "shell",
+      "command": "node ${workspaceFolder}/time_converter.js ${input:timestamp}",
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "timestamp",
+      "type": "promptString",
+      "description": "Enter a timestamp (milliseconds since epoch)"
+    }
+  ]
+}
